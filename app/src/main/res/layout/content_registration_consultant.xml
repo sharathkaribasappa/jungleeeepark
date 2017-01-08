@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_registration"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.amigosphire_poc.demo.activities.RegistrationActivity"
+    tools:showIn="@layout/activity_registration_consultant">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/_main">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:layout_weight="0.5"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="@dimen/edittextwidth"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="@string/firstname"
+                android:ems="10"
+                android:id="@+id/first_name" />
+
+            <EditText
+                android:layout_width="@dimen/edittextwidth"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/toppadding_edittext"
+                android:inputType="textPersonName"
+                android:hint="@string/lastname"
+                android:ems="10"
+                android:id="@+id/last_name" />
+
+            <EditText
+                android:layout_width="@dimen/edittextwidth"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/toppadding_edittext"
+                android:inputType="phone"
+                android:hint="@string/phonenumber"
+                android:ems="10"
+                android:id="@+id/phone_number" />
+
+            <EditText
+                android:layout_width="@dimen/edittextwidth"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/toppadding_edittext"
+                android:inputType="textEmailAddress"
+                android:hint="@string/emailid"
+                android:ems="10"
+                android:id="@+id/email_id" />
+
+            <EditText
+                android:layout_width="@dimen/edittextwidth"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/toppadding_edittext"
+                android:inputType="textPassword"
+                android:hint="@string/password"
+                android:ems="10"
+                android:id="@+id/password" />
+
+            <EditText
+                android:layout_width="@dimen/edittextwidth"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/toppadding_edittext"
+                android:inputType="textPassword"
+                android:hint="@string/confirmpassword"
+                android:ems="10"
+                android:id="@+id/confirm_password" />
+
+
+            <RadioGroup
+                android:id="@+id/usertype"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="@dimen/toppadding_edittext"
+                android:paddingBottom="@dimen/toppadding_edittext">
+
+                <RadioButton
+                    android:id="@+id/user_consultant"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Consultant"
+                    android:textSize="20dp"/>
+
+                <RadioButton
+                    android:id="@+id/user_customer"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Customer"
+                    android:textSize="20dp"/>
+            </RadioGroup>
+
+            <Button
+                android:text="@string/create_account"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/toppadding_edittext"
+                android:layout_marginBottom="@dimen/toppadding_edittext"
+                android:background="@color/colorPrimary"
+                android:textSize="@dimen/signup_textsize"
+                android:id="@+id/create_account"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

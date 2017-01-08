@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">AmigoSphire_poc</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_phonenumber">Phone Number</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_registration">Registration</string>
+    <string name="appName">AmigoSphire</string>
+    <string name="signin_question">Already have an account?</string>
+    <string name="signin">Sign in</string>
+    <string name="signup">SIGN UP</string>
+
+    <!-- registration screen -->
+    <string name="firstname">First Name</string>
+    <string name="lastname">Last Name</string>
+    <string name="phonenumber">Phone Number</string>
+    <string name="emailid">Email</string>
+    <string name="city">City</string>
+    <string name="area">Area</string>
+    <string name="profession">Profession</string>
+    <string name="specialization">Specialization</string>
+    <string name="qualification">Highest Qualification</string>
+    <string name="workplacename">Clinic/Office Name</string>
+    <string name="password">Password</string>
+    <string name="confirmpassword">Confirm Password</string>
+    <string name="city_name">City</string>
+    <string name="create_account">Create Account</string>
+    <string name="title_activity_amigo_landing">Consultation On-Call</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="availability">Available to recieve calls</string>
+    <string name="empty_notification">No Notifications</string>
+
+    <string name="incoming_call">Incoming Call</string>
+
+    <string name="charge_customer">Charge the customer?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="username">Sayeed Ahmed Shariff</string>
+    <string name="tell_us_hint">Tell us about your professional experience</string>
+    <string name="title_activity_user_profile">UserProfile</string>
+</resources>

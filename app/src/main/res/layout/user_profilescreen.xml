@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/user_pic"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"/>
+
+    <ImageButton
+        android:id="@+id/set_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_photo_camera_black_36dp"
+        android:layout_alignBottom="@+id/user_pic"
+        android:layout_alignRight="@+id/user_pic"
+        android:layout_alignEnd="@+id/user_pic" />
+
+    <EditText
+        android:id="@+id/qualification"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_pic"
+        android:hint="Add highest qualification"
+        android:inputType="textLongMessage"/>
+
+    <Spinner
+        android:layout_width="@dimen/spinnerwidth"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/topmargin_spinner"
+        android:prompt="@string/city_name"
+        android:id="@+id/city"
+        android:layout_below="@+id/qualification"/>
+
+    <Spinner
+        android:layout_width="@dimen/spinnerwidth"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/topmargin_spinner"
+        android:prompt="@string/area"
+        android:id="@+id/area"
+        android:layout_below="@+id/city"/>
+
+    <Spinner
+        android:layout_width="@dimen/spinnerwidth"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/topmargin_spinner"
+        android:prompt="@string/profession"
+        android:id="@+id/profession"
+        android:layout_below="@+id/area"/>
+
+    <Spinner
+        android:layout_width="@dimen/spinnerwidth"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/topmargin_spinner"
+        android:prompt="@string/specialization"
+        android:id="@+id/specialization"
+        android:layout_below="@+id/profession"/>
+
+    <EditText
+        android:layout_width="@dimen/edittextwidth"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/toppadding_edittext"
+        android:inputType="textPersonName"
+        android:hint="@string/workplacename"
+        android:ems="10"
+        android:id="@+id/workplace_name"
+        android:layout_below="@+id/specialization"/>
+
+    <EditText
+        android:id="@+id/phone_number"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/workplace_name"
+        android:hint="change phone number"
+        />
+
+    <EditText
+        android:id="@+id/confirm_password"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phone_number"
+        android:hint="confirm password"
+        />
+</RelativeLayout>

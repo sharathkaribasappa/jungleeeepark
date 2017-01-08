@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/skaribasappa/Documents/workspace/amigopoc/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/skaribasappa/Documents/workspace/amigopoc/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_81dc67f5d32c9d3f47d035a27bdb0bf64fb19c79.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/skaribasappa/Documents/workspace/amigopoc/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/skaribasappa/Documents/workspace/amigopoc/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-24.2.1_95e8ac086df34bde7a7f31ed512fd9e3187a6099.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/skaribasappa/Documents/workspace/amigopoc/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8dd49930e4f9dde1a42d37e362b9fea8b1b69c0d">
+        <dex dex="/Users/skaribasappa/Documents/workspace/amigopoc/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-24.0.0_d11bf549a51b6316b13db6e081d5d70955184096.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/skaribasappa/Documents/workspace/amigopoc/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/skaribasappa/Documents/workspace/amigopoc/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-24.2.1_848360771dca4cc2e281db887d164a8ccdf0fbbc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/skaribasappa/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/Users/skaribasappa/Documents/workspace/amigopoc/app/build/intermediates/pre-dexed/debug/support-annotations-24.2.1_eddbe692ee1501084de4d3141e2903ccb1e700a5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/skaribasappa/Documents/workspace/amigopoc/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/skaribasappa/Documents/workspace/amigopoc/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_95d569a3e47b80dc326e357550cd3f26c6d9f1f3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/skaribasappa/Documents/workspace/amigopoc/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/skaribasappa/Documents/workspace/amigopoc/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_848b4a47358a87e0031c044d7b45b05774ceaa28.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/skaribasappa/Documents/workspace/amigopoc/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/skaribasappa/Documents/workspace/amigopoc/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.2.1_03622a2551879897b3c4cec2ad2155a6720aea58.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/skaribasappa/Documents/workspace/amigopoc/app/build/intermediates/exploded-aar/com.android.volley/volley/1.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="/Users/skaribasappa/Documents/workspace/amigopoc/app/build/intermediates/pre-dexed/debug/com.android.volley-volley-1.0.0_4c4721e93045ff9581b02d47a690316726ff3f54.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/skaribasappa/Documents/workspace/amigopoc/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="/Users/skaribasappa/Documents/workspace/amigopoc/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-24.2.1_38c3fe152ffc4a70b8e1162ae86d017f2c342c43.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/skaribasappa/Documents/workspace/amigopoc/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/skaribasappa/Documents/workspace/amigopoc/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-24.2.1_097f9ce7be5a72ff6e3cae28fcfea217fd9e93f6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/skaribasappa/Documents/workspace/amigopoc/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b8a1f96944faa0d48de7f2d8182e267e5b076aef">
+        <dex dex="/Users/skaribasappa/Documents/workspace/amigopoc/app/build/intermediates/pre-dexed/debug/instant-run_ec659276923a6cd67eafe6bc6afec6e81db0b9e8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/skaribasappa/Documents/workspace/amigopoc/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/skaribasappa/Documents/workspace/amigopoc/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.2.1_7447e5ba666d76abd2d9c6f4454f86f544cabdc4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/skaribasappa/Documents/workspace/amigopoc/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/skaribasappa/Documents/workspace/amigopoc/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.2.1_4d76a456e27499aa935b27c336ba3f52c92f95b6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/skaribasappa/Documents/workspace/amigopoc/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/skaribasappa/Documents/workspace/amigopoc/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-24.2.1_d3ecb85157c104d6e8eafe7e7afd08d3e753b61b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/skaribasappa/Documents/workspace/amigopoc/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/skaribasappa/Documents/workspace/amigopoc/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_c8d79e8ddb9d542eb7c306269370f9ef3c38cdd4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/skaribasappa/Documents/workspace/amigopoc/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/skaribasappa/Documents/workspace/amigopoc/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-24.2.1_7c91832ad161d9708683ac5fb57456cae3baf95c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/skaribasappa/Documents/workspace/amigopoc/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="/Users/skaribasappa/Documents/workspace/amigopoc/app/build/intermediates/pre-dexed/debug/com.android.support-design-24.2.1_3943930154014379df73bba456afa808abb6a81c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/skaribasappa/Documents/workspace/amigopoc/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="58e9d9592e6c7afcc129cc2b0f85cf82d85290cc">
+        <dex dex="/Users/skaribasappa/Documents/workspace/amigopoc/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_41c2c074eaedff160b49128f3199499f74913954.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/skaribasappa/Documents/workspace/amigopoc/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/skaribasappa/Documents/workspace/amigopoc/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.2.1_8d304a9e5293656044087e45f47798dd0572a077.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/skaribasappa/Documents/workspace/amigopoc/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/skaribasappa/Documents/workspace/amigopoc/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_98f93dde7e5fb05a74d83d2dd33289c610a18d63.jar" />
+    </item>
+
+</items>

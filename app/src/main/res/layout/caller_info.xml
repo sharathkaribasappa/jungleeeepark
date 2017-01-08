@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="20dp"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_person_black_48dp"
+        android:id="@+id/user_icon" />
+
+    <TextView
+        android:layout_toRightOf="@+id/user_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="@string/incoming_call"
+        android:textSize="@dimen/incoming_call_text_size"
+        android:id="@+id/incoming_call_text"/>
+
+    <TextView
+        android:id="@+id/callername"
+        android:paddingTop="15dp"
+        android:layout_below="@+id/incoming_call_text"
+        android:layout_toRightOf="@+id/user_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="Sayeed Ahmed Shareef"
+        android:textSize="@dimen/incoming_call_username_text_size"
+        />
+
+    <LinearLayout
+        android:layout_toRightOf="@+id/user_icon"
+        android:layout_below="@+id/callername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:paddingTop="10dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="30 Years"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=","/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="Male"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=","/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="Regular customer"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/canceldialog"
+        android:layout_toRightOf="@id/incoming_call_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65dp"
+        android:src="@drawable/ic_cancel_black_48dp"/>
+</RelativeLayout>
