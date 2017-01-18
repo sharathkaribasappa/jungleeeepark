@@ -29,9 +29,14 @@ public class AmigoLandingActivity extends AppCompatActivity
     private TabLayout tabLayout;
     private ViewPager viewPager;
 
+    private String mProviderNumber;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        mProviderNumber = getIntent().getStringExtra("phone_number");
+
         setContentView(R.layout.activity_amigo_landing);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -62,6 +67,11 @@ public class AmigoLandingActivity extends AppCompatActivity
     @Override
     public void onFragmentInteraction(Uri uri) {
 
+    }
+
+    @Override
+    public String onFragmentInteraction() {
+        return mProviderNumber;
     }
 
     class ViewPagerAdapter extends FragmentPagerAdapter {

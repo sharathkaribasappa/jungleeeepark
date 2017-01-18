@@ -37,6 +37,8 @@ public class LoginActivity extends AppCompatActivity {
     private View mProgressView;
     private View mLoginFormView;
 
+    private String mPhoneNumber;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -115,6 +117,7 @@ public class LoginActivity extends AppCompatActivity {
 
                     showProgress(false);
                     Intent intent = new Intent(LoginActivity.this, AmigoLandingActivity.class);
+                    intent.putExtra("phone_number",mPhoneNumber);
                     startActivity(intent);
                     finish();
                 }
@@ -162,14 +165,15 @@ public class LoginActivity extends AppCompatActivity {
 
         EditText editText;
         editText = (EditText) this.findViewById(R.id.user_phonenumber);
-        stringBuilder.append("\"" + editText.getText().toString() + "\"");
+        mPhoneNumber = editText.getText().toString();
+        stringBuilder.append("\"" + mPhoneNumber + "\"");
 
         stringBuilder.append(",");
 
         stringBuilder.append("\"pass\":");
 
         editText = (EditText) findViewById(R.id.password);
-        stringBuilder.append("\"" + editText.getText().toString() + "@pp\"");
+        stringBuilder.append("\"" + editText.getText().toString() + "\"");
 
         stringBuilder.append("}");
         return stringBuilder.toString();

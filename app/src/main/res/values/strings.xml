@@ -23,16 +23,25 @@
     <string name="lastname">Last Name</string>
     <string name="phonenumber">Phone Number</string>
     <string name="emailid">Email</string>
+    <string name="dob">Date of birth</string>
     <string name="city">City</string>
     <string name="area">Area</string>
+    <string name="choose_area">Choose area</string>
+
     <string name="profession">Profession</string>
+    <string name="choose_profession">Choose profession</string>
+
     <string name="specialization">Specialization</string>
+    <string name="choose_specialization">Choose specialization</string>
+
     <string name="qualification">Highest Qualification</string>
     <string name="workplacename">Clinic/Office Name</string>
     <string name="password">Password</string>
     <string name="confirmpassword">Confirm Password</string>
     <string name="city_name">City</string>
+    <string name="choose_city_name">Choose city</string>
     <string name="create_account">Create Account</string>
+    <string name="next">Next</string>
     <string name="title_activity_amigo_landing">Consultation On-Call</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
@@ -53,4 +62,7 @@
     <string name="username">Sayeed Ahmed Shariff</string>
     <string name="tell_us_hint">Tell us about your professional experience</string>
     <string name="title_activity_user_profile">UserProfile</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

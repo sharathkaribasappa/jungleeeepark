@@ -8,7 +8,7 @@
     <dimen name="spinnerwidth">180dp</dimen>
     <dimen name="edittextwidth">250dp</dimen>
     <dimen name="toppadding_edittext">20dp</dimen>
-    <dimen name="topmargin_spinner">15dp</dimen>
+    <dimen name="topmargin_spinner">20dp</dimen>
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="nav_header_vertical_spacing">16dp</dimen>
     <dimen name="nav_header_height">160dp</dimen>
@@ -18,4 +18,5 @@
     <dimen name="tellus_textsize">21dp</dimen>
     <dimen name="notifications_textsize">20dp</dimen>
 
+    <dimen name="radiogroup_textsize">20dp</dimen>
 </resources>

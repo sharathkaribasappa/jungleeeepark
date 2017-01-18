@@ -1,114 +1,164 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/content_registration"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/_main"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.amigosphire_poc.demo.activities.RegistrationActivity"
-    tools:showIn="@layout/activity_registration_consultant">
+    android:layout_height="match_parent">
 
-    <ScrollView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/_main">
+        android:layout_gravity="left"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/first_name"
+            android:layout_width="@dimen/edittextwidth"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/firstname"
+            android:inputType="textPersonName"
+            android:layout_marginTop="@dimen/toppadding_edittext" />
+
+        <EditText
+            android:id="@+id/last_name"
+            android:layout_width="@dimen/edittextwidth"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/lastname"
+            android:inputType="textPersonName"
+            android:layout_marginTop="@dimen/toppadding_edittext" />
+
+        <EditText
+            android:id="@+id/phone_number"
+            android:layout_width="@dimen/edittextwidth"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/phonenumber"
+            android:inputType="phone"
+            android:layout_marginTop="@dimen/toppadding_edittext" />
+
+        <EditText
+            android:id="@+id/email_id"
+            android:layout_width="@dimen/edittextwidth"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/emailid"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="@dimen/toppadding_edittext" />
+
+        <EditText
+            android:id="@+id/dob"
+            android:layout_width="@dimen/edittextwidth"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:ems="10"
+            android:hint="@string/dob"
+            android:layout_marginTop="@dimen/toppadding_edittext"/>
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="@dimen/edittextwidth"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:layout_marginTop="@dimen/toppadding_edittext" />
+
+        <EditText
+            android:id="@+id/confirm_password"
+            android:layout_width="@dimen/edittextwidth"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/confirmpassword"
+            android:inputType="textPassword"
+            android:paddingTop="@dimen/toppadding_edittext" />
+
+
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_gravity="left"
-            android:layout_weight="0.5"
-            android:orientation="vertical">
-
-            <EditText
-                android:layout_width="@dimen/edittextwidth"
-                android:layout_height="wrap_content"
-                android:inputType="textPersonName"
-                android:hint="@string/firstname"
-                android:ems="10"
-                android:id="@+id/first_name" />
-
-            <EditText
-                android:layout_width="@dimen/edittextwidth"
-                android:layout_height="wrap_content"
-                android:paddingTop="@dimen/toppadding_edittext"
-                android:inputType="textPersonName"
-                android:hint="@string/lastname"
-                android:ems="10"
-                android:id="@+id/last_name" />
-
-            <EditText
-                android:layout_width="@dimen/edittextwidth"
-                android:layout_height="wrap_content"
-                android:paddingTop="@dimen/toppadding_edittext"
-                android:inputType="phone"
-                android:hint="@string/phonenumber"
-                android:ems="10"
-                android:id="@+id/phone_number" />
-
-            <EditText
-                android:layout_width="@dimen/edittextwidth"
-                android:layout_height="wrap_content"
-                android:paddingTop="@dimen/toppadding_edittext"
-                android:inputType="textEmailAddress"
-                android:hint="@string/emailid"
-                android:ems="10"
-                android:id="@+id/email_id" />
-
-            <EditText
-                android:layout_width="@dimen/edittextwidth"
-                android:layout_height="wrap_content"
-                android:paddingTop="@dimen/toppadding_edittext"
-                android:inputType="textPassword"
-                android:hint="@string/password"
-                android:ems="10"
-                android:id="@+id/password" />
-
-            <EditText
-                android:layout_width="@dimen/edittextwidth"
-                android:layout_height="wrap_content"
-                android:paddingTop="@dimen/toppadding_edittext"
-                android:inputType="textPassword"
-                android:hint="@string/confirmpassword"
-                android:ems="10"
-                android:id="@+id/confirm_password" />
-
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
 
             <RadioGroup
                 android:id="@+id/usertype"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:paddingTop="@dimen/toppadding_edittext"
-                android:paddingBottom="@dimen/toppadding_edittext">
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/toppadding_edittext">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="User Type"
+                    android:textSize="@dimen/radiogroup_textsize" />
 
                 <RadioButton
                     android:id="@+id/user_consultant"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="Consultant"
-                    android:textSize="20dp"/>
+                    android:textSize="20dp" />
 
                 <RadioButton
                     android:id="@+id/user_customer"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="Customer"
-                    android:textSize="20dp"/>
+                    android:textSize="20dp" />
             </RadioGroup>
 
-            <Button
-                android:text="@string/create_account"
+            <RadioGroup
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="@dimen/toppadding_edittext"
-                android:layout_marginBottom="@dimen/toppadding_edittext"
-                android:background="@color/colorPrimary"
-                android:textSize="@dimen/signup_textsize"
-                android:id="@+id/create_account"/>
+                android:layout_weight="0.5"
+                android:orientation="vertical"
+                android:paddingTop="@dimen/toppadding_edittext">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="Gender"
+                    android:textSize="@dimen/radiogroup_textsize" />
+
+                <RadioButton
+                    android:id="@+id/user_male"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Male"
+                    android:textSize="20dp" />
+
+                <RadioButton
+                    android:id="@+id/user_female"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Female"
+                    android:textSize="20dp" />
+            </RadioGroup>
         </LinearLayout>
-    </ScrollView>
-</RelativeLayout>
+
+        <Button
+            android:id="@+id/create_account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/toppadding_edittext"
+            android:layout_marginBottom="@dimen/toppadding_edittext"
+            android:background="@color/colorPrimary"
+            android:text="@string/create_account"
+            android:textSize="@dimen/signup_textsize"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/toppadding_edittext"
+            android:layout_marginBottom="@dimen/toppadding_edittext"
+            android:background="@color/colorPrimary"
+            android:text="@string/next"
+            android:textSize="@dimen/signup_textsize"
+            android:visibility="gone" />
+    </LinearLayout>
+</ScrollView>
