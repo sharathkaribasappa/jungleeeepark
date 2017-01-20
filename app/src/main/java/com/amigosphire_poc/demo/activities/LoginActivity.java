@@ -124,10 +124,12 @@ public class LoginActivity extends AppCompatActivity {
             }, new Response.ErrorListener() {
                 @Override
                 public void onErrorResponse(VolleyError error) {
-                    Log.e("UserLoginTask", "*** response failure " + error.networkResponse.statusCode + error.networkResponse.headers);
-                    showProgress(false);
-                    if (error.networkResponse.statusCode == 403 && error.networkResponse.headers.get("Status").equals("FAIL")) {
-                        Toast.makeText(getApplicationContext(), "invalid phonenumber or password", Toast.LENGTH_LONG).show();
+                    if(error != null) {
+                        Log.e("UserLoginTask", "*** response failure " + error.networkResponse.statusCode + error.networkResponse.headers);
+                        showProgress(false);
+                        if (error.networkResponse.statusCode == 403 && error.networkResponse.headers.get("Status").equals("FAIL")) {
+                            Toast.makeText(getApplicationContext(), "invalid phonenumber or password", Toast.LENGTH_LONG).show();
+                        }
                     }
                 }
             })

@@ -100,7 +100,7 @@ public class UserProfileDisplayFragment extends Fragment implements View.OnClick
 
                 @Override
                 public void errorResponse(VolleyError error) {
-
+                    Toast.makeText(getActivity(),"user registration failed",Toast.LENGTH_LONG).show();
                 }
             }, ServicePoints.CONSULTANT_REGISTER);
     }
