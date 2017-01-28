@@ -18,6 +18,7 @@ import android.widget.Toast;
 import com.amigosphire_poc.R;
 import com.amigosphire_poc.demo.utils.ServicePoints;
 import com.amigosphire_poc.demo.utils.VolleySingleton;
+import com.android.volley.Request;
 import com.android.volley.VolleyError;
 
 import java.util.ArrayList;
@@ -102,7 +103,7 @@ public class UserProfileDisplayFragment extends Fragment implements View.OnClick
                 public void errorResponse(VolleyError error) {
                     Toast.makeText(getActivity(),"user registration failed",Toast.LENGTH_LONG).show();
                 }
-            }, ServicePoints.CONSULTANT_REGISTER);
+            }, ServicePoints.CONSULTANT_REGISTER, Request.Method.POST);
     }
 
     /**

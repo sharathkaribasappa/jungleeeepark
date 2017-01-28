@@ -7,12 +7,15 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.inputmethod.InputMethodManager;
+import android.widget.EditText;
 import android.widget.Switch;
 import android.widget.Toast;
 
 import com.amigosphire_poc.R;
 import com.amigosphire_poc.demo.utils.ServicePoints;
 import com.amigosphire_poc.demo.utils.VolleySingleton;
+import com.android.volley.Request;
 import com.android.volley.VolleyError;
 
 /**
@@ -52,6 +55,17 @@ public class HomeFragment extends Fragment implements View.OnClickListener{
         Switch statusSwitch = (Switch) view.findViewById(R.id.availability_switch);
         statusSwitch.setOnClickListener(this);
 
+        final EditText editText = (EditText) view.findViewById(R.id.tellus_edittext);
+        editText.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+
+            public void onFocusChange(View v, boolean hasFocus) {
+
+                if(hasFocus){
+                    InputMethodManager imm = (InputMethodManager) getContext().getSystemService(Context.INPUT_METHOD_SERVICE);
+                    imm.hideSoftInputFromWindow(editText.getWindowToken(), 0);
+                }
+            }
+        });
         return view;
     }
 
@@ -89,7 +103,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener{
                             public void errorResponse(VolleyError error) {
                                 Toast.makeText(getActivity(),"user status available error response",Toast.LENGTH_LONG).show();
                             }
-                        }, ServicePoints.PROV_HOME_POST);
+                        }, ServicePoints.PROV_HOME_POST, Request.Method.POST );
                 break;
         }
 
@@ -122,7 +136,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener{
             public void errorResponse(VolleyError error) {
                 Log.e(TAG," user data:" + "*** error response");
             }
-        }, ServicePoints.PROV_HOME);
+        }, ServicePoints.PROV_HOME, Request.Method.POST);
     }
 
     String getUserData(final int id, final View view) {
@@ -145,6 +159,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener{
                 break;
 
             case 3:
+
                 break;
 
             case 4:

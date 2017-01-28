@@ -1,13 +1,100 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.amigosphire_poc.demo.fragments.NotificationsFragment">
 
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/notifications_listview"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:scrollbars="vertical"/>
+        android:layout_height="match_parent">
 
-</RelativeLayout>
+        <ImageView
+            android:id="@+id/notification_photo"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"/>
+
+        <ImageButton
+            android:id="@+id/set_notification_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/notification_photo"
+            android:layout_alignEnd="@+id/notification_photo"
+            android:layout_alignRight="@+id/notification_photo"
+            android:src="@drawable/ic_photo_camera_black_36dp"/>
+
+        <EditText
+            android:id="@+id/notification_message"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/notification_photo"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="60dp"
+            android:hint="please enter the notification message"/>
+
+        <Button
+            android:id="@+id/post_notification_button"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/notification_date"
+            android:layout_centerInParent="true"
+            android:text="post notification"
+            android:visibility="visible"
+            />
+
+        <LinearLayout
+            android:id="@+id/notification_date_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/notification_message"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="Effective Date"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="Expiry Date"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/notification_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/notification_date_message"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp">
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="date"
+                android:ems="10"
+                android:layout_alignTop="@+id/notification_message"
+                android:id="@+id/effective_date"
+                android:layout_weight="0.5"
+                android:hint="DD/MM/YY"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="date"
+                android:ems="10"
+                android:id="@+id/expiry_date"
+                android:layout_weight="0.5"
+                android:hint="DD/MM/YY"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>

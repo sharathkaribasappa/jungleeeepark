@@ -2,7 +2,9 @@ package com.amigosphire_poc.demo.activities;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 
 import android.os.Build;
@@ -38,6 +40,7 @@ public class LoginActivity extends AppCompatActivity {
     private View mLoginFormView;
 
     private String mPhoneNumber;
+    public static final String MyPREFERENCES = "MyPrefs" ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -170,6 +173,8 @@ public class LoginActivity extends AppCompatActivity {
         mPhoneNumber = editText.getText().toString();
         stringBuilder.append("\"" + mPhoneNumber + "\"");
 
+        setProviderNumberinSP(mPhoneNumber);
+
         stringBuilder.append(",");
 
         stringBuilder.append("\"pass\":");
@@ -179,5 +184,13 @@ public class LoginActivity extends AppCompatActivity {
 
         stringBuilder.append("}");
         return stringBuilder.toString();
+    }
+
+    private void setProviderNumberinSP(String phoneNumber) {
+        SharedPreferences sharedpreferences = getSharedPreferences(MyPREFERENCES, Context.MODE_PRIVATE);
+        SharedPreferences.Editor editor = sharedpreferences.edit();
+
+        editor.putString("pv_number", phoneNumber);
+        editor.commit();
     }
 }

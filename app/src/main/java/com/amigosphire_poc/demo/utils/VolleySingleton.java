@@ -58,9 +58,9 @@ public class VolleySingleton {
         getRequestQueue().add(req);
     }
 
-    public void serverRequest(final Context context, final String userData, final String httpOverride, final VolleyCallBack callBack, String Url) {
+    public void serverRequest(final Context context, final String userData, final String httpOverride, final VolleyCallBack callBack, String Url, int REQUEST_TYPE) {
         // Request a string response from the provided URL.
-        StringRequest stringRequest = new StringRequest(Request.Method.POST, Url,
+        StringRequest stringRequest = new StringRequest(REQUEST_TYPE, Url,
                 new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {

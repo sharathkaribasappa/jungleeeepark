@@ -19,4 +19,5 @@
     <dimen name="notifications_textsize">20dp</dimen>
 
     <dimen name="radiogroup_textsize">20dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
 </resources>

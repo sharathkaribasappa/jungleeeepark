@@ -9,6 +9,7 @@
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
 
     <application
         android:allowBackup="true"
@@ -41,6 +42,23 @@
             android:enabled="true"
             android:exported="true" />
 
+        <activity
+            android:name=".demo.activities.SettingsActivity"
+            android:label="@string/title_activity_settings" />
+        <activity
+            android:name=".demo.activities.WhiteListActivity"
+            android:label="@string/title_activity_white_list"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW_WHITE_LIST" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".demo.activities.FeedBackActivity"
+            android:label="@string/title_activity_feed_back"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

@@ -1,51 +1,57 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.amigosphire_poc.demo.fragments.HomeFragment">
+    tools:context="com.amigosphire_poc.demo.fragments.NotificationsFragment">
 
-    <Switch
-        android:text="@string/availability"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/availability_switch"
-        android:visibility="visible"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="40dp" />
+    <RelativeLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/clinic"
-        android:id="@+id/imageView2"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        <Switch
+            android:text="@string/availability"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/availability_switch"
+            android:visibility="visible"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp" />
 
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="textMultiLine"
-        android:ems="10"
-        android:id="@+id/tellus_edittext"
-        android:layout_marginTop="58dp"
-        android:hint="@string/tell_us_hint"
-        android:layout_below="@+id/imageView2"
-        android:layout_centerHorizontal="true" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:id="@+id/tellus_edittext"
+            android:layout_marginTop="58dp"
+            android:hint="@string/tell_us_hint"
+            android:layout_below="@+id/imageView2"
+            android:layout_centerHorizontal="true" />
 
-    <TextView
-        android:id="@+id/tellus_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="40dp"
-        android:layout_marginRight="40dp"
-        android:layout_marginTop="56dp"
-        android:layout_below="@+id/imageView2"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:inputType="textMultiLine"
-        android:text="@string/tell_us_hint"
-        android:textSize="@dimen/tellus_textsize"
-        android:visibility="gone"/>
-</RelativeLayout>
+        <TextView
+            android:id="@+id/tellus_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="56dp"
+            android:layout_below="@+id/imageView2"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:inputType="textMultiLine"
+            android:text="@string/tell_us_hint"
+            android:textSize="@dimen/tellus_textsize"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/clinic"
+            android:id="@+id/imageView2"
+            android:layout_below="@+id/availability_switch"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="78dp" />
+    </RelativeLayout>
+</ScrollView>

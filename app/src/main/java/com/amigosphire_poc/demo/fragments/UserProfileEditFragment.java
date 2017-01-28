@@ -1,6 +1,7 @@
 package com.amigosphire_poc.demo.fragments;
 
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Bundle;
 import android.app.Fragment;
@@ -15,6 +16,7 @@ import android.widget.Toast;
 import com.amigosphire_poc.R;
 import com.amigosphire_poc.demo.utils.ServicePoints;
 import com.amigosphire_poc.demo.utils.VolleySingleton;
+import com.android.volley.Request;
 import com.android.volley.VolleyError;
 
 /**
@@ -24,6 +26,7 @@ public class UserProfileEditFragment extends Fragment implements View.OnClickLis
     private static final String TAG = "UserProfileEditFragment";
 
     private static final String HTTP_OVERRIDE_CUSTOMER = "RQSTREG";
+    public static final String MyPREFERENCES = "MyPrefs" ;
 
     Button mCreateAccountButton;
     Button mNext;
@@ -131,7 +134,7 @@ public class UserProfileEditFragment extends Fragment implements View.OnClickLis
                         public void errorResponse(VolleyError error) {
 
                         }
-                    }, ServicePoints.CUSTOMER_REGISTER);
+                    }, ServicePoints.CUSTOMER_REGISTER, Request.Method.POST);
                 break;
 
             case R.id.next:
@@ -192,6 +195,8 @@ public class UserProfileEditFragment extends Fragment implements View.OnClickLis
         editText = (EditText) view.findViewById(R.id.phone_number);
         stringBuilder.append("\"+91"+ editText.getText().toString() + "\",");
 
+        setProviderNumberinSP("+91" + editText.getText().toString());
+
         stringBuilder.append("\"email\":");
         editText = (EditText) view.findViewById(R.id.email_id);
         stringBuilder.append("\""+ editText.getText().toString() + "\",");
@@ -217,5 +222,13 @@ public class UserProfileEditFragment extends Fragment implements View.OnClickLis
         EditText editText;
         editText = (EditText) view.findViewById(R.id.confirm_password);
         return editText.getText().toString();
+    }
+
+    private void setProviderNumberinSP(String phoneNumber) {
+        SharedPreferences sharedpreferences = getActivity().getSharedPreferences(MyPREFERENCES, Context.MODE_PRIVATE);
+        SharedPreferences.Editor editor = sharedpreferences.edit();
+
+        editor.putString("pv_number", phoneNumber);
+        editor.commit();
     }
 }

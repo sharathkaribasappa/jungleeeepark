@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="20dp">
+
+    <TextView
+        android:id="@+id/whitelistname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sayeed"
+        android:textSize="20dp"
+        android:textColor="@color/cardview_dark_background"
+        android:layout_weight="0.5"
+        />
+
+    <TextView
+        android:id="@+id/whitelistnumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+9197482827392"
+        android:textSize="20dp"
+        android:textColor="@color/cardview_dark_background"
+        android:layout_weight="0.5"
+        />
+
+</LinearLayout>

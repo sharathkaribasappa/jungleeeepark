@@ -4,19 +4,13 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.support.v7.widget.DefaultItemAnimator;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.EditText;
 
 import com.amigosphire_poc.R;
-import com.amigosphire_poc.demo.utils.NotificationAdapter;
-import com.amigosphire_poc.demo.utils.Notifications;
-
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -26,7 +20,7 @@ import java.util.List;
  * Use the {@link NotificationsFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class NotificationsFragment extends Fragment {
+public class NotificationsFragment extends Fragment implements View.OnClickListener{
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -37,10 +31,6 @@ public class NotificationsFragment extends Fragment {
     private String mParam2;
 
     private OnFragmentInteractionListener mListener;
-
-    private List<Notifications> notificationsList = new ArrayList<>();
-    private RecyclerView recyclerView;
-    private NotificationAdapter mNotificationsAdapter;
 
     public NotificationsFragment() {
         // Required empty public constructor
@@ -79,63 +69,10 @@ public class NotificationsFragment extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_notifications, container, false);
 
-        recyclerView = (RecyclerView) view.findViewById(R.id.notifications_listview);
-        mNotificationsAdapter = new NotificationAdapter(notificationsList);
-        RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(this.getActivity().getApplicationContext());
-        recyclerView.setLayoutManager(mLayoutManager);
-        recyclerView.setItemAnimator(new DefaultItemAnimator());
-        recyclerView.setAdapter(mNotificationsAdapter);
-
-        prepareNotificationsList();
+        Button postButton = (Button) view.findViewById(R.id.post_notification_button);
+        postButton.setOnClickListener(this);
 
         return view;
-    }
-
-    private void prepareNotificationsList() {
-        Notifications notification1 = new Notifications("health check camp","14/01/2017");
-        notificationsList.add(notification1);
-
-        Notifications notification2 = new Notifications("eye checkup camp","24/03/2017");
-        notificationsList.add(notification2);
-
-        Notifications notification3 = new Notifications("blood donation drive","25/04/2017");
-        notificationsList.add(notification3);
-
-        Notifications notification4 = new Notifications("blood donation drive","28/07/2017");
-        notificationsList.add(notification4);
-
-        Notifications notification12 = new Notifications("blood donation drive","28/07/2017");
-        notificationsList.add(notification12);
-
-        Notifications notification5 = new Notifications("blood donation drive","28/07/2017");
-        notificationsList.add(notification5);
-
-        Notifications notification6 = new Notifications("blood donation drive","28/07/2017");
-        notificationsList.add(notification6);
-
-        Notifications notification7 = new Notifications("blood donation drive","28/07/2017");
-        notificationsList.add(notification7);
-
-        Notifications notification8 = new Notifications("blood donation drive","28/07/2017");
-        notificationsList.add(notification8);
-
-        Notifications notification9 = new Notifications("blood donation drive","28/07/2017");
-        notificationsList.add(notification9);
-
-        Notifications notification10 = new Notifications("blood donation drive","28/07/2017");
-        notificationsList.add(notification10);
-
-        Notifications notification11 = new Notifications("blood donation drive","28/07/2017");
-        notificationsList.add(notification11);
-
-        mNotificationsAdapter.notifyDataSetChanged();
-    }
-
-    // TODO: Rename method, update argument and hook method into UI event
-    public void onButtonPressed(Uri uri) {
-        if (mListener != null) {
-            mListener.onFragmentInteraction(uri);
-        }
     }
 
     @Override
@@ -155,6 +92,17 @@ public class NotificationsFragment extends Fragment {
         mListener = null;
     }
 
+    @Override
+    public void onClick(View v) {
+
+        View parentView = v.getRootView();
+
+        EditText editText = (EditText) parentView.findViewById(R.id.notification_message);
+        String message = editText.getText().toString();
+
+        postData(message);
+    }
+
     /**
      * This interface must be implemented by activities that contain this
      * fragment to allow an interaction in this fragment to be communicated
@@ -168,5 +116,9 @@ public class NotificationsFragment extends Fragment {
     public interface OnFragmentInteractionListener {
         // TODO: Update argument type and name
         void onFragmentInteraction(Uri uri);
+    }
+
+    public void postData(String message) {
+
     }
 }

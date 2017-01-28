@@ -1,0 +1,22 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference
+        android:title="Feedback"
+        android:key="customer_feedback"/>
+
+    <Preference
+        android:title="White List"
+        android:key="conultant_whitelist"/>
+
+    <Preference
+        android:title="Feedback Received"
+        android:key="feedback_received"/>
+
+    <Preference
+        android:title="About Us"
+        android:key="aboutus"/>
+
+    <Preference
+        android:title="LogOut"
+        android:key="log_out"/>
+</PreferenceScreen>
