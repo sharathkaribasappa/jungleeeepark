@@ -58,6 +58,16 @@
         <activity
             android:name=".demo.activities.FeedBackActivity"
             android:label="@string/title_activity_feed_back"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW_FEEDBACK" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".demo.activities.ProfileScreenActivity"
+            android:label="@string/title_activity_profile_screen"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

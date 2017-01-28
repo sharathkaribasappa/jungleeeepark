@@ -2,6 +2,7 @@ package com.amigosphire_poc.demo.activities;
 
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -20,7 +21,7 @@ import com.android.volley.VolleyError;
 
 public class FeedBackActivity extends AppCompatActivity implements View.OnClickListener{
 
-    public static final String HTTP_FEEDBACK_POST = "HTTP_OVERRIDE_WHITELIST_POST";
+    public static final String HTTP_FEEDBACK_POST = "APP_FDBK";
     public static final String TAG = "FeedBackActivity";
 
     public static final String MyPREFERENCES = "MyPrefs" ;
@@ -54,23 +55,56 @@ public class FeedBackActivity extends AppCompatActivity implements View.OnClickL
                     public void errorResponse(VolleyError error) {
                         Log.e(TAG," feedback not sent, error response :" + error.networkResponse.statusCode);
                     }
-                }, ServicePoints.WHITE_LIST_POST, Request.Method.POST);
+                }, ServicePoints.FEEDBACK_POST, Request.Method.POST);
     }
 
     private String getFeedBackMessage(View view) {
         StringBuilder sb = new StringBuilder();
         sb.append("{");
 
-        sb.append("\"" + "prov_phone_no" + "\":");
+        sb.append("\"" + "phone_no" + "\":");
 
         SharedPreferences sharedpreferences = getSharedPreferences(MyPREFERENCES, Context.MODE_PRIVATE);
         String phoneNumber = sharedpreferences.getString("pv_number","");
         sb.append("\"" + phoneNumber + "\",");
 
+        sb.append("\"" + "date_time_raw" + "\":");
+        sb.append("\"" + System.currentTimeMillis() + "\",");
+
+        sb.append("\"" + "user_type" + "\":");
+        sb.append("\"" + "L" + "\",");
+
+        sb.append("\"" + "first_name" + "\":");
+        sb.append("\"" + "Sayeed" + "\",");
+
+        sb.append("\"" + "last_name" + "\":");
+        sb.append("\"" + "Shariff" + "\",");
+
+        sb.append("\"" + "app_version" + "\":");
+        sb.append("\"" + "1.0" + "\",");
+
+        String model = Build.MODEL;
+        int version = Build.VERSION.SDK_INT;
+        String versionRelease = Build.VERSION.RELEASE;
+
+        sb.append("\"" + "android_version" + "\":");
+        sb.append("\"" + versionRelease + "\",");
+
+        sb.append("\"" + "Android " + "\":");
+        sb.append("\"" + version + "\",");
+
+        sb.append("\"" + "phone_model " + "\":");
+        sb.append("\"" + model + "\",");
+
         EditText editText = (EditText) view.findViewById(R.id.enter_feedback);
         String Message = editText.getText().toString();
 
-        
+        sb.append("\"" + "feedback " + "\":");
+        sb.append("\"" + Message + "\",");
+
+        sb.append("\"" + "long_info " + "\":");
+        sb.append("\"" + "some long info message" + "\"");
+
         sb.append("}");
 
         return sb.toString();

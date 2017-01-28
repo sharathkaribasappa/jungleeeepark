@@ -146,4 +146,5 @@
 
     <string name="feedback">Feedback matters to us and we would look to promptly help,
     innovate, technical staff our self to make sure you are best at delivering your service</string>
+    <string name="title_activity_profile_screen">ProfileScreenActivity</string>
 </resources>

@@ -206,6 +206,13 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
 
                 startActivity(intent);
             }
+
+            if(preference == findPreference("customer_feedback")) {
+                Intent intent = new Intent();
+                intent.setAction("android.intent.action.VIEW_FEEDBACK");
+
+                startActivity(intent);
+            }
             return false;
         }
     }
