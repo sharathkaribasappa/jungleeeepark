@@ -28,6 +28,7 @@
             android:layout_marginTop="58dp"
             android:hint="@string/tell_us_hint"
             android:layout_below="@+id/imageView2"
+            android:focusable="false"
             android:layout_centerHorizontal="true" />
 
         <TextView

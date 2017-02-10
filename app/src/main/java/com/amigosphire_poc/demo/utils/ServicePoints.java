@@ -16,5 +16,6 @@ public class ServicePoints {
     public static final String WHITE_LIST_GET = "http://7amigos.000webhostapp.com/losec/whitelist_get.php";
     public static final String WHITE_LIST_POST = "http://7amigos.000webhostapp.com/losec/whitelist_post.php";
     public static final String FEEDBACK_POST = "http://7amigos.000webhostapp.com/losec/app_fdbk.php";
+    public static final String PROV_PROFILE_GET = "http://7amigos.000webhostapp.com/losec/prov_prfl_get.php";
 
 }

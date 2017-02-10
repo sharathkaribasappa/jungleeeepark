@@ -45,17 +45,17 @@ public class FeedBackActivity extends AppCompatActivity implements View.OnClickL
 
     private void sendFeedback(final String message) {
         VolleySingleton.getInstance(this).serverRequest(this, message, HTTP_FEEDBACK_POST,
-                new VolleySingleton.VolleyCallBack() {
-                    @Override
-                    public void userDatarespone(String response) {
-                        Log.d(TAG," feedback sent successfully");
-                    }
+        new VolleySingleton.VolleyCallBack() {
+            @Override
+            public void userDatarespone(String response) {
+                Log.d(TAG," feedback sent successfully");
+            }
 
-                    @Override
-                    public void errorResponse(VolleyError error) {
-                        Log.e(TAG," feedback not sent, error response :" + error.networkResponse.statusCode);
-                    }
-                }, ServicePoints.FEEDBACK_POST, Request.Method.POST);
+            @Override
+            public void errorResponse(VolleyError error) {
+                Log.e(TAG," feedback not sent, error response :" + error.networkResponse.statusCode);
+            }
+        }, ServicePoints.FEEDBACK_POST, Request.Method.POST);
     }
 
     private String getFeedBackMessage(View view) {

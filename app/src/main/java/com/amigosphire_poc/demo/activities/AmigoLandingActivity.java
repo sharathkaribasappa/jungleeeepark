@@ -146,6 +146,12 @@ public class AmigoLandingActivity extends AppCompatActivity
             Intent intent = new Intent(AmigoLandingActivity.this,SettingsActivity.class);
             startActivity(intent);
         }
+
+        if(id == R.id.nav_profile) {
+            Intent intent = new Intent(AmigoLandingActivity.this,ProfileScreenActivity.class);
+            startActivity(intent);
+        }
+
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
