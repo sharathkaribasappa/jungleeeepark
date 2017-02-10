@@ -45,35 +45,67 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="content_profile_screen.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_profile_screen.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
+      <file leaf-file-name="ProfileScreenActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/amigosphire_poc/demo/activities/ProfileScreenActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1754">
-              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+            <state relative-caret-position="313">
+              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProfileScreenActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/amigosphire_poc/demo/activities/ProfileScreenActivity.java">
+      <file leaf-file-name="CallManagerService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/amigosphire_poc/demo/services/CallManagerService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="57" column="47" selection-start-line="57" selection-start-column="47" selection-end-line="57" selection-end-column="47" />
+            <state relative-caret-position="480">
+              <caret line="152" column="0" selection-start-line="152" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TextUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-24/android/text/TextUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="450" column="26" selection-start-line="450" selection-start-column="26" selection-end-line="450" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomeFragment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/amigosphire_poc/demo/fragments/HomeFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="60" column="39" selection-start-line="60" selection-start-column="39" selection-end-line="60" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fragment_home.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="FeedBackActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/amigosphire_poc/demo/activities/FeedBackActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
+            <state relative-caret-position="870">
               <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -2392,9 +2424,7 @@
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/line_divider.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/amigosphire_poc/demo/utils/SimpleDividerItemDecoration.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/amigosphire_poc/demo/utils/VolleySingleton.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/amigosphire_poc/demo/fragments/HomeFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/amigosphire_poc/demo/fragments/UserProfileDisplayFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/amigosphire_poc/demo/services/CallManagerService.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/amigosphire_poc/demo/fragments/UserProfileEditFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/amigosphire_poc/demo/activities/LoginActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/amigosphire_poc/demo/adapter/MyWhiteListAdapter.java" />
@@ -2406,14 +2436,16 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/amigosphire_poc/demo/activities/SettingsActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/amigosphire_poc/demo/AmigoApplication.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/amigosphire_poc/demo/utils/ServicePoints.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_profile_screen.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/activity_amigo_landing_drawer.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/amigosphire_poc/demo/activities/AmigoLandingActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/amigosphire_poc/demo/activities/ProfileScreenActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/amigosphire_poc/demo/activities/FeedBackActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/content_profile_screen.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/amigosphire_poc/demo/fragments/HomeFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/amigosphire_poc/demo/activities/ProfileScreenActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/amigosphire_poc/demo/services/CallManagerService.java" />
       </list>
     </option>
   </component>
@@ -2447,6 +2479,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView">
+        <subPane />
+      </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
@@ -2609,10 +2645,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView">
-        <subPane />
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2622,7 +2654,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="device.picker.selection" value="Nexus_6_API_23" />
     <property name="UI_DESIGNER_EDITOR_MODE.NlPaletteManager-NlPreviewForm.SHOW" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="feedbac&#9;FILE&#9;file:///Users/skaribasappa/Documents/workspace/jungleeeepark/app/src/main/java/com/amigosphire_poc/demo/activities/FeedBackActivity.java&#10;prof&#9;FILE&#9;file:///Users/skaribasappa/Documents/workspace/jungleeeepark/app/src/main/java/com/amigosphire_poc/demo/activities/ProfileScreenActivity.java&#10;serv&#9;FILE&#9;file:///Users/skaribasappa/Documents/workspace/jungleeeepark/app/src/main/java/com/amigosphire_poc/demo/utils/ServicePoints.java&#10;profi&#9;FILE&#9;file:///Users/skaribasappa/Documents/workspace/jungleeeepark/app/src/main/java/com/amigosphire_poc/demo/activities/ProfileScreenActivity.java&#10;mani&#9;FILE&#9;file:///Users/skaribasappa/Documents/workspace/jungleeeepark/app/src/main/AndroidManifest.xml&#10;hom&#9;FILE&#9;file:///Users/skaribasappa/Documents/workspace/jungleeeepark/app/src/main/java/com/amigosphire_poc/demo/fragments/HomeFragment.java&#10;logi&#9;FILE&#9;file:///Users/skaribasappa/Documents/workspace/jungleeeepark/app/src/main/java/com/amigosphire_poc/demo/activities/LoginActivity.java&#10;fee&#9;FILE&#9;file:///Users/skaribasappa/Documents/workspace/jungleeeepark/app/src/main/java/com/amigosphire_poc/demo/activities/FeedBackActivity.java&#10;MANI&#9;FILE&#9;file:///Users/skaribasappa/Documents/workspace/jungleeeepark/app/src/main/AndroidManifest.xml&#10;sett&#9;FILE&#9;file:///Users/skaribasappa/Documents/workspace/jungleeeepark/app/src/main/java/com/amigosphire_poc/demo/activities/SettingsActivity.java&#10;servic&#9;FILE&#9;file:///Users/skaribasappa/Documents/workspace/jungleeeepark/app/src/main/java/com/amigosphire_poc/demo/utils/ServicePoints.java&#10;strings&#9;FILE&#9;file:///Users/skaribasappa/Documents/workspace/jungleeeepark/app/src/main/res/values/strings.xml&#10;call&#9;FILE&#9;file:///Users/skaribasappa/Documents/workspace/jungleeeepark/app/src/main/java/com/amigosphire_poc/demo/services/CallManagerService.java&#10;login&#9;FILE&#9;file:///Users/skaribasappa/Documents/workspace/jungleeeepark/app/src/main/java/com/amigosphire_poc/demo/activities/LoginActivity.java&#10;str&#9;FILE&#9;file:///Users/skaribasappa/Documents/workspace/jungleeeepark/app/src/main/res/values/strings.xml&#10;row&#9;FILE&#9;file:///Users/skaribasappa/Documents/workspace/jungleeeepark/app/src/main/res/layout/whitelist_row.xml&#10;an&#9;FILE&#9;file:///Users/skaribasappa/Documents/workspace/jungleeeepark/app/src/main/AndroidManifest.xml&#10;service&#9;FILE&#9;file:///Users/skaribasappa/Documents/workspace/jungleeeepark/app/src/main/java/com/amigosphire_poc/demo/utils/ServicePoints.java&#10;regi&#9;FILE&#9;file:///Users/skaribasappa/Documents/workspace/jungleeeepark/app/src/main/java/com/amigosphire_poc/demo/activities/RegistrationActivity.java&#10;ser&#9;FILE&#9;file:///Users/skaribasappa/Documents/workspace/jungleeeepark/app/src/main/java/com/amigosphire_poc/demo/utils/ServicePoints.java&#10;callm&#9;FILE&#9;file:///Users/skaribasappa/Documents/workspace/jungleeeepark/app/src/main/java/com/amigosphire_poc/demo/services/CallManagerService.java&#10;user&#9;FILE&#9;file:///Users/skaribasappa/Documents/workspace/jungleeeepark/app/src/main/java/com/amigosphire_poc/demo/fragments/UserProfileDisplayFragment.java&#10;lo&#9;FILE&#9;file:///Users/skaribasappa/Documents/workspace/jungleeeepark/app/src/main/res/layout/activity_login.xml" />
+    <property name="SearchEverywhereHistoryKey" value="callma&#9;FILE&#9;file:///Users/skaribasappa/Documents/workspace/jungleeeepark/app/src/main/java/com/amigosphire_poc/demo/services/CallManagerService.java&#10;prof&#9;FILE&#9;file:///Users/skaribasappa/Documents/workspace/jungleeeepark/app/src/main/java/com/amigosphire_poc/demo/activities/ProfileScreenActivity.java&#10;hom&#9;FILE&#9;file:///Users/skaribasappa/Documents/workspace/jungleeeepark/app/src/main/java/com/amigosphire_poc/demo/fragments/HomeFragment.java&#10;feedbac&#9;FILE&#9;file:///Users/skaribasappa/Documents/workspace/jungleeeepark/app/src/main/java/com/amigosphire_poc/demo/activities/FeedBackActivity.java&#10;serv&#9;FILE&#9;file:///Users/skaribasappa/Documents/workspace/jungleeeepark/app/src/main/java/com/amigosphire_poc/demo/utils/ServicePoints.java&#10;profi&#9;FILE&#9;file:///Users/skaribasappa/Documents/workspace/jungleeeepark/app/src/main/java/com/amigosphire_poc/demo/activities/ProfileScreenActivity.java&#10;mani&#9;FILE&#9;file:///Users/skaribasappa/Documents/workspace/jungleeeepark/app/src/main/AndroidManifest.xml&#10;logi&#9;FILE&#9;file:///Users/skaribasappa/Documents/workspace/jungleeeepark/app/src/main/java/com/amigosphire_poc/demo/activities/LoginActivity.java&#10;fee&#9;FILE&#9;file:///Users/skaribasappa/Documents/workspace/jungleeeepark/app/src/main/java/com/amigosphire_poc/demo/activities/FeedBackActivity.java&#10;MANI&#9;FILE&#9;file:///Users/skaribasappa/Documents/workspace/jungleeeepark/app/src/main/AndroidManifest.xml&#10;sett&#9;FILE&#9;file:///Users/skaribasappa/Documents/workspace/jungleeeepark/app/src/main/java/com/amigosphire_poc/demo/activities/SettingsActivity.java&#10;servic&#9;FILE&#9;file:///Users/skaribasappa/Documents/workspace/jungleeeepark/app/src/main/java/com/amigosphire_poc/demo/utils/ServicePoints.java&#10;strings&#9;FILE&#9;file:///Users/skaribasappa/Documents/workspace/jungleeeepark/app/src/main/res/values/strings.xml&#10;call&#9;FILE&#9;file:///Users/skaribasappa/Documents/workspace/jungleeeepark/app/src/main/java/com/amigosphire_poc/demo/services/CallManagerService.java&#10;login&#9;FILE&#9;file:///Users/skaribasappa/Documents/workspace/jungleeeepark/app/src/main/java/com/amigosphire_poc/demo/activities/LoginActivity.java&#10;str&#9;FILE&#9;file:///Users/skaribasappa/Documents/workspace/jungleeeepark/app/src/main/res/values/strings.xml&#10;row&#9;FILE&#9;file:///Users/skaribasappa/Documents/workspace/jungleeeepark/app/src/main/res/layout/whitelist_row.xml&#10;an&#9;FILE&#9;file:///Users/skaribasappa/Documents/workspace/jungleeeepark/app/src/main/AndroidManifest.xml&#10;service&#9;FILE&#9;file:///Users/skaribasappa/Documents/workspace/jungleeeepark/app/src/main/java/com/amigosphire_poc/demo/utils/ServicePoints.java&#10;regi&#9;FILE&#9;file:///Users/skaribasappa/Documents/workspace/jungleeeepark/app/src/main/java/com/amigosphire_poc/demo/activities/RegistrationActivity.java&#10;ser&#9;FILE&#9;file:///Users/skaribasappa/Documents/workspace/jungleeeepark/app/src/main/java/com/amigosphire_poc/demo/utils/ServicePoints.java&#10;callm&#9;FILE&#9;file:///Users/skaribasappa/Documents/workspace/jungleeeepark/app/src/main/java/com/amigosphire_poc/demo/services/CallManagerService.java&#10;user&#9;FILE&#9;file:///Users/skaribasappa/Documents/workspace/jungleeeepark/app/src/main/java/com/amigosphire_poc/demo/fragments/UserProfileDisplayFragment.java&#10;lo&#9;FILE&#9;file:///Users/skaribasappa/Documents/workspace/jungleeeepark/app/src/main/res/layout/activity_login.xml" />
     <property name="DEBUGGABLE_DEVICE" value="emulator-5554" />
     <property name="DEBUGGABLE_PROCESS" value="com.amigosphire_poc" />
     <property name="SHOW_ALL_PROCESSES" value="false" />
@@ -2986,7 +3018,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="819" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -3003,13 +3035,13 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27825466" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27825466" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32859176" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32859176" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32859176" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22460657" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22460657" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -3046,7 +3078,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27825466" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32859176" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32859176" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32859176" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32859176" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -3073,7 +3105,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/amigosphire_poc/demo/fragments/WhileListFragment.java" />
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -3100,7 +3131,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="866">
           <caret line="4868" column="5" selection-start-line="4868" selection-start-column="5" selection-end-line="4868" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3119,53 +3149,53 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_white_list.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_white_list.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_white_list.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_user_profile.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_user_profile.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/caller_info.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/caller_info.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="40" selection-start-line="2" selection-start-column="4" selection-end-line="3" selection-end-column="40" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/whitelist_row.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/whitelist_row.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.volley/volley/1.0.0/c79696d64f9520675054e27b77f490c17d8b4b9e/volley-1.0.0-sources.jar!/com/android/volley/Request.java">
@@ -3233,13 +3263,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/add_user_to_whitelist.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
@@ -3250,13 +3280,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_feed_back.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/amigosphire_poc/demo/activities/WhiteListActivity.java">
@@ -3288,13 +3318,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_notifications.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/design/24.2.1/design-24.2.1-sources.jar!/android/support/design/widget/TextInputLayout.java">
@@ -3315,20 +3345,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
@@ -3337,13 +3354,8 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/amigosphire_poc/demo/services/CallManagerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2400">
-          <caret line="273" column="68" selection-start-line="273" selection-start-column="68" selection-end-line="273" selection-end-column="68" />
-          <folding />
-        </state>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/amigosphire_poc/demo/activities/LoginActivity.java">
@@ -3372,14 +3384,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/amigosphire_poc/demo/fragments/HomeFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="135" column="58" selection-start-line="135" selection-start-column="58" selection-end-line="135" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/amigosphire_poc/demo/fragments/NotificationsFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1125">
@@ -3397,25 +3401,25 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/activity_amigo_landing_drawer.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="40" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="40" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_profile_screen.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_profile_screen.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_border_color_black_36dp.png">
@@ -3427,7 +3431,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="214" column="13" selection-start-line="214" selection-start-column="13" selection-end-line="214" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3440,72 +3443,109 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_amigo_landing.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_amigo_landing.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_feed_back.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_feed_back.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="436">
           <caret line="30" column="38" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="38" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_registration_consultant.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_registration_consultant.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/amigosphire_poc/demo/activities/FeedBackActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
+        <state relative-caret-position="870">
           <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_profile_screen.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="44" column="41" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/amigosphire_poc/demo/fragments/HomeFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="60" column="39" selection-start-line="60" selection-start-column="39" selection-end-line="60" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/amigosphire_poc/demo/activities/ProfileScreenActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="57" column="47" selection-start-line="57" selection-start-column="47" selection-end-line="57" selection-end-column="47" />
+        <state relative-caret-position="313">
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_profile_screen.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-24/android/text/TextUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1754">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        <state relative-caret-position="225">
+          <caret line="450" column="26" selection-start-line="450" selection-start-column="26" selection-end-line="450" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/amigosphire_poc/demo/services/CallManagerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="152" column="0" selection-start-line="152" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
           <folding />
         </state>
       </provider>

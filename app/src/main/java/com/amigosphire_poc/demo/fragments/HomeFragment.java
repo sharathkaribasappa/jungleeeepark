@@ -56,7 +56,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener{
         statusSwitch.setOnClickListener(this);
 
         final EditText editText = (EditText) view.findViewById(R.id.tellus_edittext);
-        editText.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+        /*editText.setOnFocusChangeListener(new View.OnFocusChangeListener() {
 
             public void onFocusChange(View v, boolean hasFocus) {
 
@@ -65,7 +65,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener{
                     imm.hideSoftInputFromWindow(editText.getWindowToken(), 0);
                 }
             }
-        });
+        }); */
         return view;
     }
 

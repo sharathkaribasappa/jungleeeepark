@@ -42,8 +42,12 @@ public class ProfileScreenActivity extends AppCompatActivity {
         new VolleySingleton.VolleyCallBack() {
             @Override
             public void userDatarespone(String response) {
-                formatResponse(response);
-                updateUI();
+                try {
+                    formatResponse(response);
+                    updateUI();
+                } catch (Exception e) {
+
+                }
                 Log.d(TAG," user data:" + response);
             }
 

@@ -13,6 +13,7 @@ import android.provider.CallLog;
 import android.support.v4.app.ActivityCompat;
 import android.telephony.PhoneStateListener;
 import android.telephony.TelephonyManager;
+import android.text.TextUtils;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
@@ -123,6 +124,10 @@ public class CallManagerService extends Service implements View.OnClickListener 
     }
 
     void showDialog(int layoutID, String userData) {
+        if(TextUtils.isEmpty(userData)) {
+            return;
+        }
+
         Toast.makeText(getBaseContext(), "onCreate", Toast.LENGTH_LONG).show();
         WindowManager.LayoutParams params = new WindowManager.LayoutParams(
                 WindowManager.LayoutParams.WRAP_CONTENT,
